@@ -1,0 +1,361 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	display: block;
+}
+
+.kd_container{
+	position: fixed;
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.kd_bg_container{
+	width:67vw;
+	height:100%;
+	position:fixed;
+	left:33vw;
+}
+
+	.img{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-attachment: fixed;
+		background-position: center;
+		background-size: cover;
+		display: none;
+	}
+	
+		.kd_main{
+			position: absolute;
+			width:45vw;
+			margin-left: 50px;
+			margin-top: 180px;
+		}
+	
+		.kd_bg_container  h1{
+			color: white;
+			font: bold 30px 'Arial Black';
+			text-shadow: -1px 1px 5px rgba(0, 0, 0, 0.5);
+		}
+			
+			.kd_main h1 span{
+				color: #00a2ff;
+			}
+			
+		.kd_main p{
+			color: lightgray;
+			font: normal 14px 'Tw Cen MT';
+			margin-bottom: 10px;
+		}
+		
+		.kd_main p a{
+			color: white;
+			text-decoration: none;	
+		}
+		
+		.kd_main p a img{
+			height: 45px;
+		}
+		
+		.kd_main p a span{
+			position: absolute;
+			font: normal 16px 'Tw Cen MT';
+			padding: 14px 0px 0px 20px
+		}
+		
+	.kd_buttons  {
+		position:fixed;
+		right:0px;
+		padding: 15px;
+	}
+	
+		.kd_container .kd_buttons .kd_content2 div{
+			border: 2px solid white;
+			width: 40px;
+			height: 6px;
+			display: inline-block;
+			margin-left: 5px;
+			cursor: pointer;
+		}
+		
+		.kd_container .kd_buttons .kd_content2 div.selected{
+			background-color: white;
+		}
+.kd_black{
+	position: fixed;
+	background-color:black;
+	background-attachment: fixed;
+	background-size: cover;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 0.4;
+}
+
+.kd_info_bar{
+	background-color:#fff;
+	position:fixed;
+	height:100%;
+	width:25vw;
+}
+	.kd_info_bar .kd_logo{
+		left:20px;
+		width: 100%;
+	}
+.kd_why_container{
+	padding: 20px;
+top:150px;
+}
+	.kd_why_container h3{
+		font: bold 18px 'Eurostile';
+		color:#00a2ff;
+	}
+	.kd_why_container p{
+		font: normal 16px 'Eurostile';
+		color:#282828;
+	}
+	.kd_why_container p a{
+		text-decoration:none;
+		color:#fff;
+	}
+	.kd_why_container img{
+		width:150px;
+		margin-top:5px;
+	}
+	.kd_why_container img:hover{
+		cursor:pointer;
+	}
+	.kd_why_container .kd_readmore{
+		margin-top:-28px;
+		padding-right:55px;
+		text-align: right;
+		font: normal 14px 'Eurostile';
+		color:#fff;
+	}
+	
+.kd_who_container{
+	padding: 20px;
+}
+	.kd_who_container h3{
+		font: bold 18px 'Eurostile';
+		color:#00a2ff;
+	}
+	.kd_who_container p{
+		font: normal 16px 'Eurostile';
+		color:#282828;
+	}
+	.kd_who_container p a{
+		text-decoration:none;
+		color:#fff;
+	}
+	.kd_who_container img{
+		width:150px;
+		margin-top:5px;
+	}
+	.kd_who_container img:hover{
+		cursor:pointer;
+	}
+	.kd_who_container .kd_readmore{
+		margin-top:-28px;
+		padding-right:55px;
+		text-align: right;
+		font: normal 14px 'Eurostile';
+		color:#fff;
+	}
+.kd_links{
+	margin-top:50px;
+}
+.kd_links img{
+	width:35px;
+}
+.kd_links img:hover{
+	cursor:pointer;
+}
+
+hr{
+	margin-top:30px;
+}
+.kd_nav_bar{
+	position:absolute;
+	left:25vw;
+	height:100%;
+	width:8vw;
+	background-color:#282828;
+}
+	.kd_nav_bar .kd_active img{
+		width:4vw;
+	}
+	.kd_nav_bar .kd_inactive img{
+		width:4vw;
+	}
+	.kd_nav_bar .kd_active{
+		height:110px;
+		background-color:#00a2ff;
+	}
+		.kd_nav_bar .kd_active img{
+			padding: 10px;
+		}
+		.kd_nav_bar .kd_active p{
+			text-align:center;
+			font: normal 16px 'Eurostile';
+			color:#fff;
+		}
+	.kd_nav_bar .kd_inactive{
+		height:110px;
+		background-color:#282828;
+		opacity: 0.4;
+	}
+		.kd_nav_bar .kd_inactive img{
+			padding: 10px;
+		}
+		.kd_nav_bar .kd_inactive p{
+			text-align:center;
+			font: normal 16px 'Eurostile';
+			color:#fff;
+		}
+	.kd_nav_bar .kd_inactive:hover{
+		background-color:#282828;
+		opacity: 0.9;
+		cursor: pointer;
+	}
+.kd_arrow{
+	position:fixed;
+	right:0 ;
+	top:40vh;
+	cursor:pointer;
+}
+.kd_mobile_arrow{
+	display:none;
+}
+.kd_brain{
+	position:fixed;
+	right:10px ;
+	bottom:10px;
+	cursor:pointer;
+}
+.kd_mobile_info_bar{
+	display:none;
+}
+/************YOUR CODE HERE************/
+
+
+@media screen and (max-width: 768px) and (orientation:portrait) {
+	.kd_nav_bar{
+		overflow:auto;
+		position:absolute;
+		left: 0;
+		width:20vw;
+	}
+		.kd_nav_bar .kd_active{
+			height:16vh;
+			background-color:#00a2ff;
+		}
+			.kd_nav_bar .kd_active img{
+				width:10vw;
+				padding-top: 20px;
+			}
+			.kd_nav_bar .kd_active p{
+				text-align:center;
+				font: normal 12px 'Eurostile';
+				color:#fff;
+			}
+		.kd_nav_bar .kd_inactive{
+			height:16vh;
+			background-color:#282828;
+		}
+			.kd_nav_bar .kd_inactive img{
+				padding-top: 20px;
+				width:10vw;
+			}
+			.kd_nav_bar .kd_inactive p{
+				text-align:center;
+				font: normal 12px 'Eurostile';
+				color:#fff;
+			}
+	.kd_info_bar{
+		display:none;
+	}
+	.kd_mobile_info_bar{
+		display:block;
+		background-color:#fff;
+		position:fixed;
+		left:20vw;
+		width:100%;
+		height:16vh;
+	}
+		.kd_mobile_info_bar .kd_logo{
+			margin-top:-10px;
+			width:60vw;
+		}
+		.kd_mobile_info_bar .kd_mobile_links{
+			display:block;
+			position:fixed;
+			right: 2vw;
+			top: 10px;
+			width:5vw;
+		}
+		.kd_mobile_info_bar .kd_mobile_links img{
+			width:5vw;
+		}
+		.kd_mobile_info_links{
+			position:fixed;
+			margin:-10px 0px 0px 10px;
+			width:20vw;
+		}
+		.kd_mobile_info_links img{
+			width:5vw;
+		}
+	.kd_bg_container{
+		width:92vw;
+		height:100%;
+		position:fixed;
+		left:8vw;
+		padding:20px;
+	}
+	
+	.kd_container .img .kd_main h1{
+		font: bold 20px 'Arial Black';
+	}
+		
+	.kd_container .img .kd_main p{
+		font: normal 12px 'Tw Cen MT';
+	}
+	
+	.kd_arrow{
+		display:none;
+	}
+	.kd_mobile_arrow{
+		display:block;
+		position:fixed;
+		right:0;
+		top:16vh;
+		cursor:pointer;
+	}
+	.kd_brain img{
+		width:50px;
+		height:50px;
+	}
+	.kd_buttons  {
+		position:fixed;
+		top:110px;
+		left:23vw;
+		padding: 3px;
+		width: 100%;
+	}
+		.kd_container .kd_buttons .kd_content2 div{
+			border: 2px solid white;
+			width: 30px;
+			height: 6px;
+			display: inline-block;
+			margin-left: 3px;
+			cursor: pointer;
+		}
+}
